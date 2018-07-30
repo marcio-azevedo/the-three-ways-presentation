@@ -46,16 +46,12 @@
 </head>
 <body>
     <div class="reveal">
-        <div class="tip" id="fs1">namespace Microsoft.FSharp</div>
-<div class="tip" id="fs2">namespace Microsoft.FSharp.Core</div>
-<div class="tip" id="fs3">namespace Microsoft</div>
-<div class="tip" id="fs4">val id : x:&#39;T -&gt; &#39;T<br /><br />Full name: Microsoft.FSharp.Core.Operators.id</div>
-
+        
         <!-- Any section element inside of this container is displayed as a slide -->
         <div class="slides">
             <section >
 <h2><a href="https://itrevolution.com/the-three-ways-principles-underpinning-devops/">The Three Ways!</a></h2>
-<img src="https://itrevolution.com/wp-content/uploads/2017/01/TPP_3rd_3D_layered_010318-1024x1024.jpg" style="background: transparent; border-style: none;" width=450 />
+<img src="https://itrevolution.com/wp-content/uploads/2017/01/TPP_3rd_3D_layered_010318-1024x1024.jpg" style="background: transparent; border-style: none;" width=500 />
 <p><a href="https://github.com/marcio-azevedo">Márcio Azevedo</a></p>
 <!--<br />
 ![The Phoenix Project](https://itrevolution.com/wp-content/uploads/2017/01/TPP_3rd_3D_layered_010318-1024x1024.jpg)
@@ -64,288 +60,130 @@
 <section >
 <section >
 <h2>The First Way</h2>
+<br />
 <h4>Systems Thinking</h4>
 </section>
 <section >
 <h2>Value Streams</h2>
 <h4>From Requirements to shipped software to customers!</h4>
+<p><img src="./images/t1stway.png" alt="The First Way" /></p>
 <aside class="notes">
 It’s all about having a holistic view of the value stream, from requirements to shipped software to customers, or ' as they call, “it’s all about left to right“<br/>
 </aside>
+</section>
+<section >
+<h3>Assessment on the Performance of the entire system</h3>
+<h5>How much time it takes do deploy a new line of code?</h5>
+<br />
+<br />
+<ul>
+<li>
+It allows to apply Lean principles
+<ul>
+<li>Monitor WIP</li>
+<li>Cycle Time</li>
+<li>Lead Time</li>
+</ul>
+</li>
+<li>Mean-Time-To-Repair (MTTR): elapsed time to repair a configuration item or IT service.</li>
+<li>Mean-Time-Between-Failure (MTBF): elapsed time between a service gets up and down.</li>
+<li>Mean-Time-To-Restore-Service (MTRS): elapsed time from the detection of an incident until it gets up.</li>
+</ul>
+</section>
+<section >
+<h3>Focus is on all business value streams enabled by IT</h3>
+<br />
+<h4>Speed is THE Business Competitive Advantage!</h4>
+<br />
+<h4>Minimize <a href="https://en.wikipedia.org/wiki/Work_in_process">WIP</a> to reduce company's investment before <a href="https://en.wikipedia.org/wiki/Return_on_investment">ROI</a>!</h4>
+<br />
 <aside class="notes">
 This enables assessment on the performance of the entire system – fast flow of work and it allows to apply known ' Lean principles, like monitor WIP<br/>
 Focus is on all business value streams enabled by IT<br/>
-The outcomes of putting the First Way into practice include:<br/>
-never passing a known defect to downstream work centers<br/>
-never allowing local optimization to create global degradation<br/>
-always seeking to increase flow<br/>
-always seeking to achieve profound understanding of the system<br/>
 </aside>
+</section>
+<section >
+<h3>The outcomes of putting the First Way into practice include:</h3>
+<br />
+<ul>
+<li>never passing a known defect to downstream work centers</li>
+<li>never allowing local optimization to create global degradation</li>
+<li>always seeking to increase flow</li>
+<li>always seeking to achieve profound understanding of the system</li>
+</ul>
+</section>
+</section>
+<section >
+<section >
+<h2>The Second Way</h2>
+<br />
+<h4>Amplify Feedback Loops</h4>
+</section>
+<section >
+<p><img src="./images/t2ndway.png" alt="The Second Way" /></p>
+<h3>Understanding and responding to all customers, internal and external</h3>
+</section>
+<section >
+<p><img src="./images/t2ndway.png" alt="The Second Way" /></p>
+<h3>Shortening and amplifying all feedback loops</h3>
+</section>
+<section >
+<p><img src="./images/t2ndway.png" alt="The Second Way" /></p>
+<h3>Embedding knowledge where you need it</h3>
+</section>
+<section >
+<p><img src="./images/t2ndway.png" alt="The Second Way" /></p>
+<h3>Eradicate largest sources of <strong>unplanned work</strong></h3>
+</section>
+</section>
+<section >
+<section >
+<h2>The Third Way</h2>
+<br />
+<h4>Culture of Continuous Experimentation And Learning</h4>
+</section>
+<section >
+<img src="./images/t3rdway.png" style="background: transparent; border-style: none;" width=450 />
+<h3>Creating a culture that fosters two things:</h3>
+<ul>
+<li>Continual experimentation, which requires taking risks and learning from success and failure</li>
+<li>Understanding that repetition and practice are the prerequisites to mastery, reinforcing a culture of operational rigor and discipline</li>
+</ul>
+</section>
+<section >
+<img src="./images/t3rdway.png" style="background: transparent; border-style: none;" width=450 />
+<h3>The outcomes of the Third Way include:</h3>
+<ul>
+<li>allocating time for the improvement of daily work</li>
+<li>creating rituals that reward the team for taking risks</li>
+<li>introducing faults into the system to increase resilience</li>
+</ul>
+</section>
+<section >
+<p>There’s a school of thought that says how high performers win in the marketplace is because they out-learn the competition, or as <a href="https://www.youtube.com/watch?v=NAazenCRQSY">Andrew Shafer</a> said:</p>
+<br />
+<blockquote>
+<p><strong>You’re either a learning organisation or you’re losing to somebody who is.</strong></p>
+</blockquote>
+<aside class="notes">
+[Andrew Clay Shafer](https://www.linkedin.com/in/andrewclayshafer/)<br/>
+</aside>
+</section>
 </section>
 <section data-background="images/RequestForComment.gif">
-<h1>So, what's the solution!?</h1>
+<h1>So, what are you going to do about it!?</h1>
 <!-- ![funny pic](images/RequestForComment.gif) -->
-</section>
-</section>
-<section >
-<section >
-<h3>PAKET</h3>
-<h4>Dependency Manager for .NET (and Mono)</h4>
-<p><img src="images/paket-logo.png" alt="PAKET" /></p>
-<blockquote>
-<p><strong>designed to work well with NuGet packages</strong> and also
-enables referencing files directly from Git repositories or any HTTP resource.
-<aside class="notes">
-Why PAKET?<br/>
-PAKET offers <strong>predictable control</strong> over references with NuGet!<br/>
-</aside>
-It enables <strong>precise and predictable control</strong> over what packages the projects within your application reference.</p>
-</blockquote>
-</section>
-<section >
-<aside class="notes">
-Here's some problems with NuGet command tool<br/>
-</aside>
-<h2>Known problems</h2>
-<h3>NuGet (the command tool) has no concept of transitive dependencies</h3>
-<img src="images/masstransit-dependencies.png" style="background: transparent; border-style: none;" width=300 />
-<img src="images/package.config.png" style="background: transparent; border-style: none;" width=550 />
-</section>
-<section >
-<h3>NuGet puts the package version in the path</h3>
-<img src="images/package-version-in-path.png" style="background: transparent; border-style: none;" width=450 />
-<img src="images/package-version-in-path1.png" style="background: transparent; border-style: none;" width=450 />
-<aside class="notes">
-Problems: - path to packages changes at every update<br/>
-- code reviews are harder because you're always updating .csproj files<br/>
-- makes it very easy to have several versions of the same package in the same solution<br/>
-</aside>
-</section>
-<section >
-<h3>Updates may require manual work (specially if you update framework)</h3>
-<p><img src="images/csproj-references.png" alt="NuGet" /></p>
-<p>How PAKET does it?</p>
-<p><img src="images/csproj-paket-references.png" alt="PAKET" /></p>
-<aside class="notes">
-Neither Visual Studio neither NuGet are clever to update it when you change the project Framework.<br/>
-</aside>
-</section>
-<section >
-<h4>Paket fully supports Semantic Versioning, and, currently, NuGet doesn’t (NuGet currently only supports SemVer 1.0.0).</h4>
-<blockquote>
-<p>NuGet does not support SemVer-compatible (v2.0.0) prerelease numbers with dot notation, as in 1.0.1-build.23. You can use a form like 1.0.1-build23 but this is always considered a pre-release version.</p>
-</blockquote>
-<p>in <a href="https://docs.microsoft.com/en-us/nuget/create-packages/prerelease-packages#semantic-versioning">PreRelease Semantic Versioning</a></p>
-<p>Plan to implement <a href="https://github.com/NuGet/Home/wiki/SemVer-2.0.0-support">SemVer 2.0.0 support</a></p>
-</section>
-</section>
-<section >
-<section >
-<h4>PAKET is composed by <em>paket.bootstrapper.exe</em></h4>
-<ul>
-<li>Don't need to commit paket.exe to your repository</li>
-<li>Bootstrapper is available for download - <a href="https://github.com/fsprojects/Paket/releases/latest">Bootstrapper</a></li>
-<li>Bootstrapper allows to download latest paket.exe</li>
-<li>Can be used for CI build or from inside Visual Studio</li>
-</ul>
-<p><img src="images/paket.bootstrapper.exe.png" alt="Bootstrapper" /></p>
-<aside class="notes">
-Main components<br/>
-http://fsprojects.github.io/Paket/paket-simplify.html#Sample<br/>
-open BackOffice example<br/>
-</aside>
-</section>
-<section >
-<h4>Paket.exe (.paket directory in root)</h4>
-<table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
-</pre></td>
-<td class="snippet"><pre class="fssnip"><code lang="sh">$ .paket\paket.exe --help
-</code></pre></td></tr></table>
-<p><a href="https://fsprojects.github.io/Paket//paket-add.html">PAKET Commands</a></p>
-<!--![PAKET Commands](images/paket-cmds.png)-->
-<img src="images/paket-cmds.png" style="background: transparent; border-style: none;" width=600 />
-</section>
-<section >
-<h3>Global definition of dependencies</h3>
-<p><strong>paket.dependencies</strong> (in solution root)</p>
-<table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l"> 1: </span>
-<span class="l"> 2: </span>
-<span class="l"> 3: </span>
-<span class="l"> 4: </span>
-<span class="l"> 5: </span>
-<span class="l"> 6: </span>
-<span class="l"> 7: </span>
-<span class="l"> 8: </span>
-<span class="l"> 9: </span>
-<span class="l">10: </span>
-<span class="l">11: </span>
-<span class="l">12: </span>
-<span class="l">13: </span>
-<span class="l">14: </span>
-<span class="l">15: </span>
-<span class="l">16: </span>
-<span class="l">17: </span>
-<span class="l">18: </span>
-<span class="l">19: </span>
-<span class="l">20: </span>
-</pre></td>
-<td class="snippet"><pre class="fssnip highlighted"><code lang="fsharp"><span class="i">source</span> <span class="i">https</span><span class="o">:</span><span class="c">//dotnet.myget.org/F/dotnet-core/api/v3/index.json</span>
-
-<span class="c">// Reference a nuget package</span>
-<span class="i">nuget</span> <span onmouseout="hideTip(event, 'fs1', 1)" onmouseover="showTip(event, 'fs1', 1)" class="i">FSharp</span><span class="o">.</span><span class="i">Management</span>
-<span class="c">// Reference a single file from GitHub</span>
-<span class="i">github</span> <span class="i">myRepo</span><span class="o">/</span><span class="i">aProject</span> <span class="i">dependency</span><span class="o">.</span><span class="i">dll</span>
-<span class="i">github</span> <span class="i">forki</span><span class="o">/</span><span class="i">FsUnit</span> <span class="i">FsUnit</span><span class="o">.</span><span class="i">fs</span>
-<span class="i">File</span><span class="o">:</span><span class="i">FsUnit</span><span class="o">.</span><span class="i">fs</span>
-
-<span class="c">// Shared dependencies</span>
-<span class="i">nuget</span> <span class="i">Newtonsoft</span><span class="o">.</span><span class="i">Json</span>
-<span class="i">nuget</span> <span onmouseout="hideTip(event, 'fs1', 2)" onmouseover="showTip(event, 'fs1', 2)" class="i">FSharp</span><span class="o">.</span><span onmouseout="hideTip(event, 'fs2', 3)" onmouseover="showTip(event, 'fs2', 3)" class="i">Core</span>
-
-<span class="i">group</span> <span class="i">Web</span>
-    <span class="i">nuget</span> <span class="i">Fake</span><span class="o">.</span><span class="i">IIS</span>
-    <span class="i">nuget</span> <span class="i">Suave</span>
-
-<span class="i">group</span> <span class="i">Database</span>
-    <span class="i">nuget</span> <span class="i">FluentMigrator</span>
-    <span class="i">nuget</span> <span class="i">SQLProvider</span>
-</code></pre></td>
-</tr>
-</table>
-<aside class="notes">
-here's an example of ou to reference directly a dll from github or a script<br/>
-Reference multiple sources (NuGet, MyGet, Github, private NuGet servers, any HTTP resource!)<br/>
-ok, NuGet can do that as well, but how about reference directly HTTP resources?<br/>
-</aside>
-</section>
-<section >
-<h3>List of used versions for all dependencies</h3>
-<p><strong>paket.lock</strong> (generated from paket install)</p>
-<table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
-<span class="l">2: </span>
-<span class="l">3: </span>
-<span class="l">4: </span>
-<span class="l">5: </span>
-<span class="l">6: </span>
-<span class="l">7: </span>
-<span class="l">8: </span>
-<span class="l">9: </span>
-</pre></td>
-<td class="snippet"><pre class="fssnip highlighted"><code lang="fsharp"><span class="i">NUGET</span>
-  <span class="i">remote</span><span class="o">:</span> <span class="i">https</span><span class="o">:</span><span class="c">//api.nuget.org/v3/index.json</span>
-    <span onmouseout="hideTip(event, 'fs3', 4)" onmouseover="showTip(event, 'fs3', 4)" class="i">Microsoft</span><span class="o">.</span><span class="i">Bcl</span> (<span class="n">1.1</span><span class="o">.</span><span class="n">9</span>) <span class="o">-</span> <span class="i">framework</span><span class="o">:</span> <span class="o">&gt;</span><span class="o">=</span> <span class="i">net45</span>
-      <span onmouseout="hideTip(event, 'fs3', 5)" onmouseover="showTip(event, 'fs3', 5)" class="i">Microsoft</span><span class="o">.</span><span class="i">Bcl</span><span class="o">.</span><span class="i">Build</span> (<span class="o">&gt;</span><span class="o">=</span> <span class="n">1.0</span><span class="o">.</span><span class="n">14</span>)
-    <span onmouseout="hideTip(event, 'fs3', 6)" onmouseover="showTip(event, 'fs3', 6)" class="i">Microsoft</span><span class="o">.</span><span class="i">Bcl</span><span class="o">.</span><span class="i">Build</span> (<span class="n">1.0</span><span class="o">.</span><span class="n">21</span>) <span class="o">-</span> <span class="i">import_targets</span><span class="o">:</span> <span class="k">false</span>, <span class="i">framework</span><span class="o">:</span> <span class="o">&gt;</span><span class="o">=</span> <span class="i">net45</span>
-    <span onmouseout="hideTip(event, 'fs3', 7)" onmouseover="showTip(event, 'fs3', 7)" class="i">Microsoft</span><span class="o">.</span><span class="i">Net</span><span class="o">.</span><span class="i">Http</span> (<span class="n">2.2</span><span class="o">.</span><span class="n">28</span>) <span class="o">-</span> <span class="i">framework</span><span class="o">:</span> <span class="o">&gt;</span><span class="o">=</span> <span class="i">net45</span>
-      <span onmouseout="hideTip(event, 'fs3', 8)" onmouseover="showTip(event, 'fs3', 8)" class="i">Microsoft</span><span class="o">.</span><span class="i">Bcl</span> (<span class="o">&gt;</span><span class="o">=</span> <span class="n">1.1</span><span class="o">.</span><span class="n">9</span>)
-      <span onmouseout="hideTip(event, 'fs3', 9)" onmouseover="showTip(event, 'fs3', 9)" class="i">Microsoft</span><span class="o">.</span><span class="i">Bcl</span><span class="o">.</span><span class="i">Build</span> (<span class="o">&gt;</span><span class="o">=</span> <span class="n">1.0</span><span class="o">.</span><span class="n">14</span>)
-    <span class="i">NuGet</span><span class="o">.</span><span class="i">CommandLine</span> (<span class="n">3.5</span>)
-</code></pre></td>
-</tr>
-</table>
-</section>
-<section >
-<h3>Dependency definition per project ("replaces" packages.config)</h3>
-<p><strong>paket.references</strong> (in each project folder)</p>
-<table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
-<span class="l">2: </span>
-</pre></td>
-<td class="snippet"><pre class="fssnip highlighted"><code lang="fsharp"><span onmouseout="hideTip(event, 'fs3', 10)" onmouseover="showTip(event, 'fs3', 10)" class="i">Microsoft</span><span class="o">.</span><span class="i">Net</span><span class="o">.</span><span class="i">Http</span>
-<span class="i">Newtonsoft</span><span class="o">.</span><span class="i">Json</span>
-</code></pre></td>
-</tr>
-</table>
-</section>
-<section >
-<h3>Package definition for new packages</h3>
-<p><strong>paket.template</strong> replaces the need for .nuspec file</p>
-<table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
-<span class="l">2: </span>
-<span class="l">3: </span>
-<span class="l">4: </span>
-<span class="l">5: </span>
-<span class="l">6: </span>
-<span class="l">7: </span>
-<span class="l">8: </span>
-</pre></td>
-<td class="snippet"><pre class="fssnip highlighted"><code lang="fsharp"><span class="k">type</span> <span class="i">file</span>
-<span onmouseout="hideTip(event, 'fs4', 11)" onmouseover="showTip(event, 'fs4', 11)" class="i">id</span> <span class="i">Test</span><span class="o">.</span><span class="i">Paket</span><span class="o">.</span><span class="i">Package</span>
-<span class="i">version</span> <span class="n">1.0</span>
-<span class="i">authors</span> <span class="i">M&#225;rcio</span> <span class="i">Azevedo</span>
-<span class="i">description</span>
-    <span class="i">description</span> <span class="k">of</span> <span class="i">this</span> <span class="i">test</span> <span class="i">package</span>
-<span class="i">files</span>
-    <span class="i">src</span><span class="o">/</span><span class="i">Test</span><span class="o">.</span><span class="i">Paket</span><span class="o">.</span><span class="i">Package</span><span class="o">/</span><span class="i">bin</span><span class="o">/</span><span class="i">Debug</span> <span class="o">==&gt;</span> <span class="i">lib</span>
-</code></pre></td>
-</tr>
-</table>
-<p><a href="https://fsprojects.github.io/Paket/template-files.html">Detailed options</a></p>
-</section>
-</section>
-<section >
-<p><img src="images/paket-logo.png" alt="PAKET" /></p>
-<h3>Some References</h3>
-<ul>
-<li><a href="https://github.com/elastic/elasticsearch-net">ElasticSearch.NET</a> uses this in their .NET tools and libraries</li>
-<li><a href="https://github.com/jet/kafunk">Jet.com</a> (e-commerce platform recently acquired by Walmart by 3bn $)</li>
-</ul>
-</section>
-<section >
-<aside class="notes">
-<h4>Convert from NuGet command<br/></h4>
-<p><a href="http://fsprojects.github.io/Paket/paket-convert-from-nuget.html">Convert from NuGet command</a><br/>
-<img src="images/convert-changes01.png" alt="convert-changes01" /><br/>
-<img src="images/convert-changes02.png" alt="convert-changes02" /><br/>
-<img src="images/convert-changes03.png" alt="convert-changes03" /><br/>
-<a href="https://fsprojects.github.io/Paket/convert-from-nuget-tutorial.html">Here's a tutorial</a><br/>
-</aside></p>
-<h3>DEMO</h3>
-<p><img src="images/demo.jpeg" alt="PAKET" /></p>
-<p><a href="https://gist.github.com/marcio-azevedo/9576969640a404fd2944aab89117d212">Gists</a></p>
-</section>
-<section >
-<section >
-<h3>RECAP</h3>
-<ul>
-<li>Plain text over Command line tool</li>
-<li>Direct vs. transitive dependencies</li>
-<li>Only one version of a package</li>
-</ul>
-<p>There's also a VS extension - <a href="https://github.com/hmemcpy/Paket.VisualStudio">Paket.VisualStudio</a></p>
-<aside class="notes">
-![PAKET](images/paket-visualstudio.png)<br/>
-</aside>
-<img src="images/paket-visualstudio.png" style="background: transparent; border-style: none;" width=600 />
-</section>
-<section >
-<h2>Q&amp;A</h2>
-<h4>Paket - Project Principles:</h4>
-<ul>
-<li>Integrate well into the existing NuGet ecosystem</li>
-<li>Make things work with minimal tooling (plain text files)</li>
-<li>Make it work on all platforms</li>
-<li>Automate everything</li>
-<li>Create a nice community</li>
-</ul>
-<aside class="notes">
-![PAKET](images/qa.jpeg)<br/>
-yes, it's possible to have different versions for the same package - https://russcam.github.io/paket-fake-talk/#/same-dependency<br/>
-Global view of dependencies - used where and by whom? (NuGet has no global view of your dependencies)<br/>
-Package Dependency Resolution<br/>
-</aside>
-</section>
 </section>
 <section >
 <h2>Thank you!</h2>
 <ul>
-<li><p><a href="https://github.com/marcio-azevedo/paket-presentation/">Presentation Source</a> based on <a href="https://github.com/fsprojects/FsReveal">FsReveal</a></p></li>
-<li><p><a href="https://gist.github.com/marcio-azevedo/9576969640a404fd2944aab89117d212">Gists</a></p></li>
+<li><p><a href="https://github.com/marcio-azevedo/the-three-ways-presentation/">Presentation Source Code</a> based on <a href="https://github.com/fsprojects/FsReveal">FsReveal</a></p></li>
 <li>
 <p>References:</p>
 <ul>
-<li><p><a href="https://fsprojects.github.io/Paket/">https://fsprojects.github.io/Paket/</a></p></li>
-<li><p><a href="https://russcam.github.io/paket-fake-talk/#/intro">https://russcam.github.io/paket-fake-talk/#/intro</a></p></li>
-<li><p><a href="http://forki.github.io/PaketIntro/#/">http://forki.github.io/PaketIntro/#/</a></p></li>
+<li><p><a href="https://itrevolution.com/book/the-phoenix-project/">The Phoenix Project book</a></p></li>
+<li><p><a href="https://anoblequest.wordpress.com/2018/06/13/the-phoenix-project/"><a href="https://anoblequest.wordpress.com/2018/06/13/the-phoenix-project/">https://anoblequest.wordpress.com/2018/06/13/the-phoenix-project/</a></a></p></li>
+<li><p><a href="https://itrevolution.com/the-three-ways-principles-underpinning-devops/">The Three Ways: Principles Underpinning DevOps!</a></p></li>
 </ul>
 </li>
 </ul>
