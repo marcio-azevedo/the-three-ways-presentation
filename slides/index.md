@@ -27,7 +27,7 @@
 ## Value Streams
 #### From Requirements to shipped software to customers!
 
-' ADD PICTURE!
+![The First Way](./images/t1stway.png)
 
 ' It’s all about having a holistic view of the value stream, from requirements to shipped software to customers, or ' as they call, “it’s all about left to right“
 
@@ -52,7 +52,7 @@
 <br />
 #### Speed is THE Business Competitive Advantage!
 <br />
-#### Minimize WIP to reduce company's investment before ROI!
+#### Minimize [WIP](https://en.wikipedia.org/wiki/Work_in_process) to reduce company's investment before [ROI](https://en.wikipedia.org/wiki/Return_on_investment)!
 <br />
 ' This enables assessment on the performance of the entire system – fast flow of work and it allows to apply known ' Lean principles, like monitor WIP
 ' Focus is on all business value streams enabled by IT
@@ -69,9 +69,74 @@
 
 ***
 
+## The Second Way
+<br />
+#### Amplify Feedback Loops
+
+---
+
+![The Second Way](./images/t2ndway.png)
+
+### Understanding and responding to all customers, internal and external
+
+---
+
+![The Second Way](./images/t2ndway.png)
+
+### Shortening and amplifying all feedback loops
+
+---
+
+![The Second Way](./images/t2ndway.png)
+
+### Embedding knowledge where you need it
+
+---
+
+![The Second Way](./images/t2ndway.png)
+
+### Eradicate largest sources of **unplanned work**
+
+***
+
+## The Third Way
+<br />
+#### Culture of Continuous Experimentation And Learning
+
+---
+
+<img src="./images/t3rdway.png" style="background: transparent; border-style: none;" width=450 />
+
+### Creating a culture that fosters two things:
+
+- Continual experimentation, which requires taking risks and learning from success and failure
+- Understanding that repetition and practice are the prerequisites to mastery, reinforcing a culture of operational rigor and discipline
+
+---
+
+<img src="./images/t3rdway.png" style="background: transparent; border-style: none;" width=450 />
+
+### The outcomes of the Third Way include:
+
+- allocating time for the improvement of daily work
+- creating rituals that reward the team for taking risks
+- introducing faults into the system to increase resilience
+
+---
+
+There’s a school of thought that says how high performers win in the marketplace is because they out-learn the competition, or as [Andrew Shafer](https://www.youtube.com/watch?v=NAazenCRQSY) said:
+
+<br />
+
+> **You’re either a learning organisation or you’re losing to somebody who is.**
+
+' [Andrew Clay Shafer](https://www.linkedin.com/in/andrewclayshafer/)
+
+***
+
 - data-background : images/RequestForComment.gif
 
-# So, what's the solution!?
+# So, what are you going to do about it!?
 
 <!-- ![funny pic](images/RequestForComment.gif) -->
 
